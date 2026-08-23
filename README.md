@@ -82,19 +82,19 @@ Architecture/architecture-diagram.png
 
 ### Resource Group
 
-Screenshots/01-resource-group.png
+Screenshots/01-ResourceGroup.png
 
 ### VNet and Subnets
 
-Screenshots/02-vnet-subnets.png
+Screenshots/02-Vnet-Subnets.png
 
 ### NSG Rules
 
-Screenshots/03-nsg-rules.png
+Screenshots/03-NSG-Rules.png
 
 ### Linux VM
 
-Screenshots/04-linux-vm.png
+Screenshots/04-Linux-VM.png
 
 ### Azure Bastion
 
