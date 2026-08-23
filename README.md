@@ -1,2 +1,143 @@
-# azure-secure-multitier-network
-AZ-104 Project: Secure Multi-Tier Virtual Network Infrastructure on Microsoft Azure
+# Azure Secure Multi-Tier Virtual Network Project
+
+## Overview
+
+This project demonstrates Microsoft Azure Administrator (AZ-104) skills through the deployment of a secure multi-tier network infrastructure.
+
+The solution includes:
+
+- Azure Virtual Network
+- Multiple Subnets
+- Network Security Group
+- Azure Bastion
+- Ubuntu Linux Virtual Machine
+- Azure Monitor
+- Log Analytics Workspace
+- Recovery Services Vault
+- Azure Backup
+
+---
+
+## Architecture
+
+Architecture/architecture-diagram.png
+
+---
+
+## Architecture Components
+
+### Resource Group
+
+RG-AZ104-MultiTier
+
+### Networking
+
+- VNET-1 (10.0.0.0/16)
+- Management Subnet (10.0.1.0/24)
+- Web Subnet (10.0.2.0/24)
+- AzureBastionSubnet (10.0.3.0/26)
+
+### Security
+
+- Azure Bastion
+- NSG-WEB
+- HTTP Allowed
+- HTTPS Allowed
+- SSH Restricted
+
+### Compute
+
+- Ubuntu Server 22.04 LTS
+- WEBVM01
+- NGINX Web Server
+
+### Monitoring
+
+- Azure Monitor
+- Log Analytics Workspace
+
+### Backup
+
+- Recovery Services Vault
+- Daily Backup Policy
+
+---
+
+## Deployment Steps
+
+1. Created Resource Group.
+2. Created Virtual Network and Subnets.
+3. Configured Network Security Group.
+4. Deployed Ubuntu Linux VM.
+5. Configured Azure Bastion.
+6. Installed and configured NGINX.
+7. Enabled Azure Monitor.
+8. Connected Log Analytics Workspace.
+9. Configured Alert Rules.
+10. Enabled VM Backup using Recovery Services Vault.
+
+---
+
+## Screenshots
+
+### Resource Group
+
+Screenshots/01-resource-group.png
+
+### VNet and Subnets
+
+Screenshots/02-vnet-subnets.png
+
+### NSG Rules
+
+Screenshots/03-nsg-rules.png
+
+### Linux VM
+
+Screenshots/04-linux-vm.png
+
+### Azure Bastion
+
+Screenshots/05-Azure-Bastion.png
+
+Screenshots/06-Bastion-Connection.png
+
+### Ngix Running
+
+Screenshots/07-Nginx-Running.png
+
+Screenshots/08-Website-Hosted.png
+
+### Monitoring
+
+Screenshots/10-Alert-Rule.png
+
+### Backup
+
+Screenshots/11-Backup-Success.png
+
+---
+
+## Cost Optimization
+
+Resources were deleted after successful testing and validation to avoid unnecessary Azure charges.
+
+---
+
+## Skills Demonstrated
+
+- Azure Administration
+- Network Security
+- Azure Compute
+- Monitoring & Alerting
+- Backup & Recovery
+- Troubleshooting
+- Infrastructure Management
+
+---
+
+## Author
+
+Nagendra Babu
+
+Desktop Engineer | Azure Administrator
