@@ -28,7 +28,7 @@ Architecture/architecture-diagram.png
 
 ### Resource Group
 
-RG-AZ104-MultiTier
+**RG-AZ104-MultiTier**
 
 ### Networking
 
@@ -68,7 +68,7 @@ RG-AZ104-MultiTier
 1. Created Resource Group.
 2. Created Virtual Network and Subnets.
 3. Configured Network Security Group.
-4. Deployed Ubuntu Linux VM.
+4. Deployed Ubuntu Linux Virtual Machine.
 5. Configured Azure Bastion.
 6. Installed and configured NGINX.
 7. Enabled Azure Monitor.
@@ -100,19 +100,23 @@ Screenshots/04-linux-vm.png
 
 Screenshots/05-Azure-Bastion.png
 
+### Bastion Connection
+
 Screenshots/06-Bastion-Connection.png
 
-### Ngix Running
+### NGINX Running
 
 Screenshots/07-Nginx-Running.png
 
+### Website Hosted
+
 Screenshots/08-Website-Hosted.png
 
-### Monitoring
+### Alert Rule
 
 Screenshots/10-Alert-Rule.png
 
-### Backup
+### Backup Success
 
 Screenshots/11-Backup-Success.png
 
@@ -122,22 +126,35 @@ Screenshots/11-Backup-Success.png
 
 Resources were deleted after successful testing and validation to avoid unnecessary Azure charges.
 
+This approach demonstrates responsible cloud cost management while still validating the deployment and configuration of all required services.
+
 ---
 
 ## Skills Demonstrated
 
 - Azure Administration
-- Network Security
-- Azure Compute
+- Azure Networking
+- Network Security Groups (NSG)
+- Azure Bastion
+- Linux Administration
+- NGINX Web Server Deployment
+- Azure Monitor
+- Log Analytics Workspace
+- Azure Backup & Recovery
 - Monitoring & Alerting
-- Backup & Recovery
-- Troubleshooting
 - Infrastructure Management
+- Troubleshooting
+
+---
+
+## Project Outcome
+
+Successfully designed and deployed a secure multi-tier Azure infrastructure implementing networking, security, monitoring, and backup best practices aligned with Microsoft AZ-104 certification objectives.
 
 ---
 
 ## Author
 
-Nagendra Babu
+**Nagendra Babu**
 
 Desktop Engineer | Azure Administrator
