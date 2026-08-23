@@ -86,7 +86,7 @@ The solution includes:
 
 ### VNet Subnets
 
-![VNet Subnets](Screenshots/02-Vnet-Subnets.png)
+![VNet Subnets](Screenshots/02-VNet-Subnets.png)
 
 ### NSG Rules
 
