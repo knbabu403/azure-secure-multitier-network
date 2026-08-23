@@ -84,9 +84,9 @@ The solution includes:
 
 ![Resource Group](Screenshots/01-ResourceGroup.png)
 
-### VNet and Subnets
+### VNet Subnets
 
-![VNet and Subnets](Screenshots/02-Vnet-Subnets.png)
+![VNet Subnets](Screenshots/02-Vnet-Subnets.png)
 
 ### NSG Rules
 
