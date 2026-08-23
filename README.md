@@ -86,7 +86,7 @@ Screenshots/01-ResourceGroup.png
 
 ### VNet and Subnets
 
-Screenshots/02-Vnet-Subnets.png
+!(Screenshots/02-Vnet-Subnets.png)
 
 ### NSG Rules
 
