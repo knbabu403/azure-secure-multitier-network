@@ -82,43 +82,43 @@ Architecture/architecture-diagram.png
 
 ### Resource Group
 
-  Screenshots/01-ResourceGroup.png
+Screenshots/01-ResourceGroup.png
 
 ### VNet and Subnets
 
-  Screenshots/02-Vnet-Subnets.png
+Screenshots/02-Vnet-Subnets.png
 
 ### NSG Rules
 
-  Screenshots/03-NSG-Rules.png
+Screenshots/03-NSG-Rules.png
 
 ### Linux VM
 
-  Screenshots/04-Linux-VM.png
+Screenshots/04-Linux-VM.png
 
 ### Azure Bastion
 
-  Screenshots/05-Azure-Bastion.png
+Screenshots/05-Azure-Bastion.png
 
 ### Bastion Connection
 
-  Screenshots/06-Bastion-Connection.png
+Screenshots/06-Bastion-Connection.png
 
 ### NGINX Running
 
-  Screenshots/07-Nginx-Running.png
+Screenshots/07-Nginx-Running.png
 
 ### Website Hosted
 
-  Screenshots/08-Website-Hosted.png
+Screenshots/08-Website-Hosted.png
 
 ### Alert Rule
 
-  Screenshots/10-Alert-Rule.png
+Screenshots/10-Alert-Rule.png
 
 ### Backup Success
 
-  Screenshots/11-Backup-Success.png
+Screenshots/11-Backup-Success.png
 
 ---
 
